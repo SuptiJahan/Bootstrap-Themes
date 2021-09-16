@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="css/all.min.css">
     <!--bootstrap-->
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- animate  -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!--main css-->
     <link rel="stylesheet" href="css/style.css">
     <!--responsive css-->
@@ -24,7 +26,7 @@
         <div class="container my-2">
             <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="container-fluid">
-                  <a class="navbar-brand" href="#">OnePage</a>
+                  <a class="navbar-brand fs-2" href="#">OnePage</a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
@@ -71,63 +73,62 @@
         </div>
     </section>
 <!--banner area-->
-<section id="banner_area" class="section-padding">
+<section data-aos="zoom-in" id="banner_area" class=" section-padding">
   <div class="container">
-    <div class="content">
+    <div class="content text-center">
       <div class="title">
-      <h1> One Page Bootstrap<br>Website Template</h1>  
+      <h1 class="display-3 fw-bold"> One Page Bootstrap<br>Website Template</h1>  
       </div>
-      <h4>We are team of talented designers</h4>
-      <button class="btn">Get Started</button>
-      <div class="row my-5">
+      <h4 class="my-4">We are team of talented designers</h4>
+      <button class="btn mb-5">Get Started</button>
+    </div>  
+      <div class="row text-left  my-5" data-aos="fade-up"data-aos-delay="100">
         <div class="col-3">
-          <div class="icon-box">
-          <div class="icon">
-            <i class="fas fa-layer-group"></i> 
-          </div>
-          <h4>Lorem Ipsum</h4>
-          <p>Voluptatum deleniti<br>atque corrupti quos <br>dolores et quas<br>molestias excepturi</p>
-        </div>
-      </div>
-        <div class="col-3">
-          <div class="icon-box boxes">
-           <div class="icon">
-            <i class="fas fa-palette"></i>
+          <div class="icon-box py-5 px-4 ">
+            <div class="icon pt-3">
+              <i class="fas fa-layer-group pb-3"></i> 
             </div>
-           <h4>Sed ut<br> perspiciatis</h4>
-           <p>Duis aute irure dolor<br>in reprehenderit in <br>voluptate velit esse <br>cillum dolore</p>
+          <h4 class="fs-5 py-2">Lorem Ipsum</h4>
+          <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi </p>
         </div>
       </div>
         <div class="col-3">
-          <div class="icon-box">
-          <div class="icon">
-            <i class="fas fa-compress"></i>
+          <div class="icon-box py-5 px-4">
+           <div class="icon pt-3">
+            <i class="fas fa-palette pb-3 "></i>
+            </div>
+           <h4 class="fs-5 py-1">Sed ut perspiciatis</h4>
+           <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+        </div>
+      </div>
+        <div class="col-3">
+          <div class="icon-box py-5 px-4">
+          <div class="icon pt-3">
+            <i class="fas fa-compress pb-3"></i>
           </div>
-          <h4>Magni Dolores</h4>
-          <p>Excepteur sint<br>occaecat cupidatat<br>non proident, sunt in<br>culpa qui officia</p>
+          <h4 class="fs-5 py-1">Magni Dolores</h4>
+          <p>Excepteur sint occaecat cupidatat non proident,sunt in culpa qui officia</p>
         </div>
         </div>
         <div class="col-3">
-          <div class="icon-box">
-          <div class="icon">
-            <i class="fas fa-fingerprint"></i>
+          <div class="icon-box py-5 px-4">
+          <div class="icon pt-3">
+            <i class="fas fa-fingerprint pb-3"></i>
           </div>
-          <h4>Nemo Enim</h4>
-          <p>At vero eos et<br>accusamus et iusto<br>odio dignissimos<br>ducimus qui blanditiis</p>
+          <h4 class="fs-5 py-1">Nemo Enim</h4>
+          <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
         </div>
         </div>
         </div>
       </div>
-    </div>
-  </div>
 </section>
 <!--about-part-->
-<section id="about-part">
-  <div class="container">
+<section id="about-part ">
+  <div class="container" data-aos="fade-up">
     <div class="inner_area">
-      <div class="section_title">
-        <h1>ABOUT US</h1>
-        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem.</p>
+      <div class="section_title text-center">
+        <h1 class="fs-3 pb-2 fw-bold">ABOUT US</h1>
+        <p class="pb-2">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem.</p>
       </div>
       <div class="row">
         <div class="col-6">
@@ -143,7 +144,7 @@
         <div class="col-6">
           <div class="inner">
             <p>laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <div class="btn button">Learn more</div>
+            <button class="about-button fs-6">Learn more</button> 
           </div>
         </div>
       </div>
@@ -151,30 +152,30 @@
   </div>
 </section>
 <!--count-area-->
-<section id="count-section" class="section-paddings bg-light ">
+<section data-aos="fade-up" data-aos-duration="2500" id="count-section" class="my-5 bg-light ">
   <div class="container">
     <div class="row">
-        <div class="col-3 px-5">
-           <div class="amount">
-             <h1>33</h1>
+        <div class="col-3 py-5 ps-2 text-center">
+           <div class="amount text-center">
+             <h1 class="display-4 fw-bold count-num">33</h1>
              <p>Happy Clients</p>
            </div>
         </div>
-        <div class="col-3 px-5">
+        <div class="col-3 py-5 ps-2 text-center">
           <div class="amount">
-             <h1>10</h1>
+             <h1 class="display-4 fw-bold count-num">10</h1>
              <p>Projects</p>
           </div>
         </div>
-        <div class="col-3 px-5">
+        <div class="col-3 py-5 ps-2 text-center">
           <div class="amount">
-             <h1>33</h1>
+             <h1 class="display-4 fw-bold count-num">33</h1>
              <p>Years of experience</p>
           </div>
         </div>
-        <div class="col-3 px-5">
+        <div class="col-3 py-5 ps-2 text-center">
           <div class="amount">
-             <h1>20</h1>
+             <h1 class="display-4 fw-bold count-num">20</h1>
              <p>Awards</p>
           </div>
         </div>
@@ -182,18 +183,18 @@
     </div>
 </section>
  <!--about-video-part-->
-<section id="About_video-part" class="section-paddings">
+<section id="About_video-part" class="my-5">
   <div class="container">
     <div class="row">
-      <div class="col-6">
+      <div class="col-6" data-aos="fade-up" data-aos-delay="100">
          <div class="vide0_inner">
            <img src="img/about-video.jpg" alt="">
          </div>
       </div>
-      <div class="col-6">
+      <div class="col-6" data-aos="fade-left" data-aos-delay="100">
         <div class="inner-inners">
-          <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
-          <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</P>
+          <h5 class="fs-4 fw-bold">Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h5>
+          <P><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</i></P>
           <ul>
             <li><i class="fas fa-check-double right-icon pe-2 py-2"></i>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
             <li><i class="fas fa-check-double right-icon pe-2 py-2"></i>Duis aute irure dolor in reprehenderit in voluptate velit.</li>
@@ -207,100 +208,100 @@
   </div>
 </section>
 <!--clients-section-->
-<section id="clients-section" class="client bg-light">
+<section id="clients-section" class="client py-4 my-5 bg-light">
   <div class="container">
     <div class="row">
-      <div class="col-2">
-       <img src="img/client-1 (1).png" alt="">
+      <div class="col-2 ">
+       <img class="w-50 filter" src="img/client-1 (1).png" alt="">
       </div>
       <div class="col-2">
-        <img src="img/client-2.png" alt="">
+        <img class="w-50 filter" src="img/client-2.png" alt="">
       </div>
       <div class="col-2">
-        <img src="img/client-3.png" alt="">
+        <img class="w-50 filter" src="img/client-3.png" alt="">
       </div>
       <div class="col-2">
-        <img src="img/client-4.png" alt="">
+        <img class="w-50 filter" src="img/client-4.png" alt="">
       </div>
       <div class="col-2">
-        <img src="img/client-5.png" alt="">
+        <img class="w-50 filter" src="img/client-5.png" alt="">
       </div>
       <div class="col-2">
-         <img src="img/client-6.png" alt="">
+         <img class="w-50 filter" src="img/client-6.png" alt="">
       </div>
     </div>
   </div>
 </section>
 <!--testemonial-section-->
-<section id="Testemonial-section" class="section-paddings">
+<section id="Testemonial-section" class="my-5"data-aos="fade-up">
   <div class="container">
-    <div class="Banner_inner">
-      <h2>TESTIMONIALS</h2>
+    <div class="Banner_inner text-center">
+      <h2 class="fs-2 pb-2 fw-bold pt-4">TESTIMONIALS</h2>
       <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
     </div>
   </div>
 </section>
 <!--services-section-->
-<section id="servics-section" class="section-paddings">
+<section id="servics-section" class="my-5"data-aos="fade-up">
   <div class="container">
-    <div class="Banner_inner">
-       <h2>SEVICES</h2>
+    <div class="Banner_inner text-center">
+        <h2 class="fs-2 pb-2 fw-bold pt-4">SEVICES</h2>
        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-       <div class="row">
+       <div class="row mt-5" data-aos="fade-up">
          <div class="col-4">
-          <div class="icon-box services-box">
-            <div class="icons">
+          <div class="icon-box py-5 services-box text-center px-3 mt-5">
+            <div class="icons fs-4 py-3" fs- py-34>
               <i class="fas fa-archway"></i>
             </div>
             <h4>Lorem Ipsum</h4>
-            <p>Voluptatum deleniti atque corrupti<br> quos dolores et quas molestias<br> excepturi</p>
+            <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
           </div>
          </div>
          <div class="col-4">
-          <div class="icon-box services-box">
-            <div class="icons">
+          <div class="icon-box py-5 services-box text-center px-3 mt-5">
+            <div class="icons fs-4 py-3">
               <i class="fas fa-file-alt"></i> 
             </div>
             <h4>Sed Perspiciatis</h4>
-            <p>Duis aute irure dolor in reprehenderit<br> in voluptate velit esse cillum dolore</p>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore occaecat</p>
           </div>
          </div>
          <div class="col-4">
-          <div class="icon-box services-box">
-            <div class="icons">
+          <div class="icon-box py-5 services-box text-center px-3 mt-5">
+            <div class="icons fs-4 py-3">
               <i class="fas fa-archway"></i>
             </div>
             <h4>Magni Dolores</h4>
-            <p>Excepteur sint occaecat cupidatat non<br> proident, sunt in culpa qui officia</p>
+            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia occaecat</p>
           </div>
          </div>
        </div>  
-       <div class="row">
+       <div class="row"data-aos="fade-up">
         <div class="col-4">
-         <div class="icon-box services-box">
-           <div class="icons">
+         <div class="icon-box py-5 services-box text-center px-3 mt-5">
+           <div class="icons fs-4 py-3">
              <i class="fas fa-layer-group"></i> 
            </div>
            <h4>Nemo Enim</h4>
-           <p>At vero eos et accusamus et iusto odio<br> dignissimos ducimus qui blanditiis</p>
+           <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
          </div>
         </div>
         <div class="col-4">
-         <div class="icon-box services-box">
-           <div class="icons">
+         <div class="icon-box py-5 services-box text-center px-3 mt-5">
+           <div class="icons fs-4 py-3">
             <i class="fas fa-archway"></i>
            </div>
            <h4>Dele Cardo</h4>
-           <p>Quis consequatur saepe eligendi<br> voluptatem consequatur dolor<br> consequuntu</p>
+           <p>Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntu</p>
          </div>
         </div>
         <div class="col-4">
-         <div class="icon-box services-box">
-           <div class="icons">
+         <div class="icon-box py-5 services-box text-center px-3 mt-5">
+           <div class="icons fs-4 py-3">
             <i class="fas fa-archway"></i>
            </div>
            <h4>Divera Don</h4>
-           <p>Modi nostrum vel laborum. Porro fugit<br> error sit minus sapiente sit aspernatur</p>
+           <p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
          </div>
         </div>
       </div>  
@@ -308,104 +309,136 @@
   </div>
 </section>
 <!--call-section-->
-<section id="call-section" class="section-paddings">
+<section id="call-section" class="my-5 py-4" data-aos="zoom-in">
   <div class="container">
-    <div class="call-inner">
-      <h2>Call To Action</h2>
+    <div class="call-inner text-center">
+      <h2 class=" fs-2 bw-bold">Call To Action</h2>
       <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      <div class="btn call-btn">Call To Action</div>
+      <div class="btn call-btn my-4">Call To Action</div>
     </div>
   </div>
 </section>
 <!--PORTFOLIO-Section-->
-<section id="PORTFOLIO-Section" class="section-paddings">
+<section id="PORTFOLIO-Section" class="section-paddings" data-aos="fade-up">
   <div class="container">
-    <div class="Banner_inner">
-      <h2>PORTFOLIO</h2>
+    <div class="Banner_inner text-center">
+      <h2 class="fs-2 pb-2 fw-bold pt-4">PORTFOLIO</h2>
       <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
     </div>
   </div>
 </section>
 <!--Team-section-->
-<section id="Team-section" class="section-paddings">
-  <div class="container">
-    <div class="Banner_inner">
-      <h2>TEAM</h2>
+<section id="Team-section" class="mt-5" >
+  <div class="container" data-aos="fade-up">
+    <div class="Banner_inner text-center mb-5">
+      <h2 class="fs-2 pb-2 fw-bold pt-4">TEAM</h2>
       <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
       <div class="row">
-        <div class="col-3">
-          <div class="img-box">
-          <img src="img/team-1.jpg" alt="">
-          <h3>Walter White</h3>
-          <p>Chief Executive Officer</p>
+        <div class="col-3 hovers">
+          <div class="img-box mt-3">
+            <div class="relative">
+              <img class="img-fluid" src="img/team-1.jpg" alt="">
+              <div class="social d-flex justify-content-around">
+                <i class="fs-5 fab fa-facebook"></i>
+                <i class="fs-5 fab fa-twitter"></i>
+                <i class="fs-5 fab fa-instagram"></i>
+                <i class="fs-5 fab fa-linkedin-in"></i> 
+              </div>
+            </div>
+            <h3>Walter White</h3>
+            <p class="pb-4">Chief Executive Officer</p>
+          </div>
         </div>
-        </div>
-        <div class="col-3">
-          <div class="img-box">
-          <img src="img/team-2.jpg" alt="">
+        <div class="col-3 hovers">
+          <div class="img-box mt-3">
+            <div class="relative">
+              <img class="img-fluid" src="img/team-2.jpg" alt="">
+              <div class="social d-flex justify-content-around">
+                <i class="fs-5 fab fa-facebook"></i>
+                <i class="fs-5 fab fa-twitter"></i>
+                <i class="fs-5 fab fa-instagram"></i>
+                <i class="fs-5 fab fa-linkedin-in"></i> 
+              </div>
+            </div>
           <h3>Sarah Jhonson</h3>
-          <p>Product Manager </p>
+          <p class="pb-4">Product Manager </p>
         </div>
         </div>
-        <div class="col-3">
-          <div class="img-box">
-          <img src="img/team-3.jpg" alt="">
+        <div class="col-3 hovers">
+          <div class="img-box mt-3">
+            <div class="relative">
+              <img class="img-fluid" src="img/team-3.jpg" alt="">
+              <div class="social d-flex justify-content-around">
+                <i class="fs-5 fab fa-facebook"></i>
+                <i class="fs-5 fab fa-twitter"></i>
+                <i class="fs-5 fab fa-instagram"></i>
+                <i class="fs-5 fab fa-linkedin-in"></i> 
+              </div>
+            </div>
           <h3>William Anderson</h3>
-          <p>CTO</p>
+          <p class="pb-4">CTO</p>
         </div>
-         </div>
-        <div class="col-3">
-          <div class="img-box">
-          <img src="img/team-4.jpg" alt="">
+        </div>
+        <div class="col-3 hovers">
+          <div class="img-box mt-3 ">
+            <div class="relative">
+              <img class="img-fluid" src="img/team-4.jpg" alt="">
+              <div class="social d-flex justify-content-around">
+                <i class="fs-5 fab fa-facebook"></i>
+                <i class="fs-5 fab fa-twitter"></i>
+                <i class="fs-5 fab fa-instagram"></i>
+                <i class="fs-5 fab fa-linkedin-in"></i> 
+              </div>
+            </div>
           <h3>Amanda Jepson</h3>
-          <p>Accountant</p>
+          <p class="pb-4">Accountant</p>
+        </div>
         </div>
         </div>
       </div>
     </div>
-  </div>
 </section>
 <!--pricing-section-->
-  <section id="prising-section" class="section-paddings">
+  <section id="prising-section"  data-aos="fade-up">
     <div class="container">
-      <div class="Banner_inner">
-        <h2>PRICING</h2>
-        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+      <div class="Banner_inner my-5 py-5 text-center">
+        <h2 class="fs-2 pb-2 fw-bold pt-4">PRICING</h2>
+        <p class="pb-3">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
         <div class="row">
           <div class="col-4">
-            <div class="icon-box pricing">
-              <h3>FREE</h3>
-              <h6><span class="span-color">$</span> 0 <span>/month</span></h6>
+            <div class="pricing-box">
+              <h5>FREE</h5>
+              <h6><sup>$</sup> 0 <span>/month</span></h6>
               <p>Aida dere</p>
               <p>Nec feugiat nisl<p>
               <p>Nulla at volutpat dola<p>
               <p><span>Pharetra massa</span><p>
               <p><span>Massa ultricies mi</span><p>
-              <div class="btn button">Buy Now</div> 
+                <button class="prising-button">Buy Now</button> 
             </div>
           </div>
           <div class="col-4">
-            <div class="icon-box pricing box">
-              <h3>BUSINESS</h3>
-              <h6 class="pricing-color"><span class="pricing-color">$</span > 19 <span class="pricing-color">/month</span></h6>
+            <div class=" pricing-box">
+              <h5>BUSINESS</h5>
+              <h6 class="pricing-color"><sup>$</sup>19 <span class="pricing-color">/month</span></h6>
               <p class="pricing-color">Aida dere<p>
               <p class="pricing-color">Nec feugiat nisl<p>
               <p class="pricing-color">Nulla at volutpat dola<p>
               <p class="pricing-color">Pharetra massa<p>
               <p class="pricing-color">Massa ultricies mi<p>
-              <div class="btn button pricing-color">Buy Now</div>
+                <button class="prising-button pricing-color">Buy Now</button> 
           </div>
           </div>
           <div class="col-4">
-            <div class="icon-box pricing">
-              <h3>DEVELOPER</h3>
-              <h6><span class="span-color">$</span> 29 <span>/month</span></h6>
+            <div class="pricing-box">
+              <h5>DEVELOPER</h5>
+              <h6><sup>$</sup> 29 <span>/month</span></h6>
               <p>Aida dere<p>
               <p>Nec feugiat nisl<p>
               <p>Nulla at volutpat dola<p>
               <p>Pharetra massa<p>
               <p>Massa ultricies mi<p>
-              <div class="btn button">Buy Now</div>
+                <button class="prising-button">Buy Now</button> 
             </div>
           </div>
         </div>
@@ -413,7 +446,7 @@
     </div>
   </section>
   <!--Question-section--> 
-  <section id="Question-section" class="section-paddings bg-light">
+  <section id="Question-section" class="bg-light" data-aos="fade-up">
     <div class="container">
       <div class="Banner_inner">
         <h2>FREQUENTLY ASKED QUESTIONS</h2>
@@ -474,12 +507,13 @@
     </div>
   </section>
   <!--contact-section-->
-  <section id="contact-section" class="section-paddings">
+  <section id="contact-section" data-aos="fade-up">
     <div class="container">
-      <div class="Banner_inner">
+      <div class="Banner_inner py-5">
         <h2>CONTACT</h2>
         <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-        <div class="row">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58523.56828925326!2d90.4923882208894!3d23.542462619687253!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755addfa6be8f6d%3A0x743bc3c6e0d9c53a!2sMunshiganj!5e0!3m2!1sen!2sbd!4v1631704473641!5m2!1sen!2sbd" width="950" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <div class="row pt-5 mt-3">
           <div class="col-4">
             <div class="adress-inner">
                <h4>Location:</h4>
@@ -491,11 +525,21 @@
             </div> 
           </div>
           <div class="col-8">
-            <div class="from-inner">
-               <input type="text" id="name"  name="name"placeholder="Your Name">
-               <input type="email" id="Email" placeholder="Your-Email">
-               <input type="text" id="subject" placeholder="Subject">
-               <textarea name="message" id="message" placeholder="Message" ></textarea>
+            <from class="row">
+              <div class="col-6">
+                <input type="text" id="name"  name="name"placeholder="Your Name"class="form-control py-2">
+              </div>
+              <div class="col-6">
+                <input type="email" id="Email" placeholder="Your-Email"class="form-control py-2">
+              </div>
+              <div class="col-12 mt-4">
+                <input type="text" id="subject" placeholder="Subject" class="form-control py-2">
+              </div>
+              <div class="col-12 mt-4">
+                <textarea class="form-control" name="massage" id="massage" rows="6" name="message" id="message" placeholder="Message" ></textarea>
+              </div>
+            </from>
+            <button class="last-button mt-4">Send massage</button>
             </div>
           </div>
         </div>
@@ -503,16 +547,15 @@
     </div>
   </section>
   <!--Footer-section-->
-  <section id="Footer-section"  class="section-paddings">
+  <section id="Footer-section" data-aos="fade-up" class="my-5 bg-light">
     <div class="container">
-      <div class="row">
+      <div class="row py-5">
         <div class="col-3">
           <div class="Footer_inner">
           <h3>OnePage</h3>
           <p>A108 Adam Street<br>
             New York, NY 535022<br>
             United States<br><br>
-            
             <strong>Phone:</strong>  +1 5589 55488 55<br>
             <strong>Email:</strong> info@example.com</p>
         </div>
@@ -560,8 +603,16 @@
       </div>
     </div>
   </section>
+  
+  <!-- animate js  -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
     <!--bootstrap js-->
-    <script src="js/main.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/3.0.0/noframework.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
